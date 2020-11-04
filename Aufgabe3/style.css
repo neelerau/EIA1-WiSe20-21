@@ -11,6 +11,10 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-top: -400px;
+
+}
+
+h1 {
     font-size: xx-large;
     color: white;
 }
