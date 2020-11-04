@@ -1,6 +1,13 @@
 body { 
-    background-image:url(background.png);
+    background-image:url("background.png");
+
     
 
 
+}
+
+.half-circle {
+    top: 0;
+    left:0;
+    width:1600px;
 }
