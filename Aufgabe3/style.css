@@ -1,13 +1,14 @@
 body { 
     background-image:url("background.png");
 
-    
-
-
 }
 
-.half-circle {
-    top: 0;
-    left:0;
-    width:1600px;
+.kreis {
+    background-color:darkgrey;
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -400px;
 }
