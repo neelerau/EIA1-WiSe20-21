@@ -18,3 +18,9 @@ h1 {
     font-size: xx-large;
     color: white;
 }
+
+h2 {
+    font-size: medium;
+    color: #b14135;
+    font-family: sans-serif;
+}
