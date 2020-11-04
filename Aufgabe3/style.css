@@ -20,8 +20,10 @@ body {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: 55pt;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
