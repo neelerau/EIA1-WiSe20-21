@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 115px;
     color: white;
     text-align: center;
     font-family: sans-serif;
@@ -31,7 +31,7 @@ h1 {
 
 div h1 {
      position: relative;
-    margin-top: -400px;
+    margin-top: -425px;
 }
 h2 {
     font-size: xx-large;
@@ -46,8 +46,9 @@ h2 {
      color: #a05951;
      margin-left: 250px;
      margin-right: 200px;
-     margin-top: -30px;
+     margin-top: -70px;
      text-align: right;
+     font-style: italic;
  }
 nav {
     position: fixed;
