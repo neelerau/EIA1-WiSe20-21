@@ -4,7 +4,7 @@ body {
 
 }
 
-nav {
+button {
     position: absolute;
     font-family: sans-serif;
     top: 0;
@@ -15,6 +15,7 @@ nav {
      color: white;
      transition: color 1s ease-in-out 0s;
      position: relative;
+     text-decoration: none;
  }
  a:hover {
          color: black;
