@@ -50,6 +50,12 @@ h2 {
      text-align: right;
      font-style: italic;
  }
+
+ div h3 {
+     margin-top:-30px ;
+     font-size: large ;
+     margin-right: 250px;
+ }
 nav {
     position: fixed;
     top: 0;
