@@ -34,3 +34,9 @@ h2 {
     color: #b14135;
     font-family: sans-serif;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
