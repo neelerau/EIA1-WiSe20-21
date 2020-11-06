@@ -44,7 +44,7 @@ h2 {
     font-size: xx-large;
     color: #b14135;
     font-family: sans-serif;
-    margin-top: 250px;
+    margin-top: 300px;
     margin-left:400px;
 }
 h3 {
@@ -54,7 +54,7 @@ h3 {
      color: #a05951;
      margin-left: 500px;
      margin-right: 500px;
-     margin-top: -70px;
+     margin-top: -30px;
      text-align: center;
      font-style: italic;
  }
@@ -62,7 +62,7 @@ h3 {
  div h3 {
      position: relative;
      margin-top:-30px ;
-     font-size: large ;
+     font-size: medium ;
     }
     
     
