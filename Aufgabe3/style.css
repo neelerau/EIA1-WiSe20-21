@@ -12,7 +12,10 @@ button {
     right: 0;
     background-color:#b14135;
     border: none;
+    border-radius: 5px;
 }
+
+
  a {
      color: white;
      transition: color 1s ease-in-out 0s;
