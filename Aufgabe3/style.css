@@ -22,8 +22,12 @@ nav {
 
    
 #datei {
-        justify-content: center;
-        align-items: center;}
+    height: 530px;
+    width: 800px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
 
 h1 {
     font-size: 115px;
@@ -41,7 +45,7 @@ h2 {
     color: #b14135;
     font-family: sans-serif;
     margin-top: 250px;
-    margin-left:200px;
+    margin-left:400px;
 }
 h3 {
      position: relative;
