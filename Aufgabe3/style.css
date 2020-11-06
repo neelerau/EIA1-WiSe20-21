@@ -6,10 +6,20 @@ body {
 
 nav {
     position: absolute;
+    font-family: sans-serif;
     top: 0;
     right: 0;
+    background-color:#b14135;
 }
-
+ a {
+     color: white;
+     transition: color 1s ease-in-out 0s;
+     color: lightgray;
+     position: relative;
+ }
+ a:hover {
+         color: white;
+ }
 .kreis {
     background-color:darkgrey;
     height: 800px;
