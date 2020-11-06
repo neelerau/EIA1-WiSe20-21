@@ -4,6 +4,12 @@ body {
 
 }
 
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .kreis {
     background-color:darkgrey;
     height: 800px;
@@ -38,16 +44,16 @@ h2 {
     font-size: xx-large;
     color: #b14135;
     font-family: sans-serif;
-    margin-top: 400px;
+    margin-top: 250px;
     margin-left:200px;
 }
 h3 {
-     position: relative;
+     position: fixed;
      font-size: x-large;
      font-family: sans-serif;
      color: #a05951;
-     margin-left: 800px;
-     margin-right: 800px;
+     margin-left: 500px;
+     margin-right: 500px;
      margin-top: -70px;
      text-align: center;
      font-style: italic;
@@ -58,10 +64,5 @@ h3 {
      margin-top:-30px ;
      font-size: large ;
    
-div nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-}
 
 
