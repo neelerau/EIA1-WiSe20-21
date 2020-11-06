@@ -40,7 +40,12 @@ button {
     margin-left: auto;
     margin-top: -400px;
 }
-#icon {
+#icon { height: 100px;
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
 
 }
 #datei {
