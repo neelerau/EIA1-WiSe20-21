@@ -40,14 +40,8 @@ button {
     margin-left: auto;
     margin-top: -400px;
 }
-#icon { height: 100px;
-    width: 100px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
 
-
-}
+     
 #datei {
     height: 530px;
     width: 800px;
@@ -92,5 +86,20 @@ h3 {
      font-size: medium ;
     }
     
+    #icon { 
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        transform: scaleZ(1,1);
     
+    }
+    #icon:hover {
+        width: 110px;
+        height: 110px;
+    
+    
+    } 
 
