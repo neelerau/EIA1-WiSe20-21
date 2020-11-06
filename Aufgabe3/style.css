@@ -65,7 +65,7 @@ h2 {
     font-size: xx-large;
     color: #b14135;
     font-family: sans-serif;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left:385px;
     position: relative;
 }
@@ -99,7 +99,7 @@ h3 {
     }
     #icon:hover {
        box-shadow: 2px 2px 10px darkgray;
-    
+       border-radius: 10px;
     
     } 
 
