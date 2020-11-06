@@ -27,7 +27,7 @@ button {
  }
 
  .active {
-     color: black;
+     color: rgb(32, 28, 28);
      font-style: bold;
  }
 
