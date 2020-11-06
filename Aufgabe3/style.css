@@ -18,7 +18,7 @@ body {
 
 .datei {
       justify-content: center;
-      display: flex;
+      align-items: center;
 
   
 }
@@ -42,21 +42,21 @@ h2 {
     margin-left:200px;
 }
  h3 {
+     position: relative;
      font-size: x-large;
      font-family: sans-serif;
      color: #a05951;
-     margin-left: 250px;
-     margin-right: 200px;
+     margin-left: 800px;
+     margin-right: 800px;
      margin-top: -70px;
-     text-align: right;
+     text-align: center;
      font-style: italic;
  }
 
  div h3 {
      margin-top:-30px ;
      font-size: large ;
-     margin-right: 270px;
- }
+   
 nav {
     position: fixed;
     top: 0;
