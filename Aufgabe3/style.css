@@ -104,3 +104,9 @@ h3 {
     
     } 
 
+#infos {
+    font-family: sans-serif;
+    font-size: large;
+    color: darkgray;
+    margin-left:385px;
+}
