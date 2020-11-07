@@ -116,3 +116,24 @@ h4 {
     background-origin: padding-box;
     margin-right: 850px;
 }
+
+#nachname {
+    background-color: darkgray;
+    color:white;
+    background-origin: padding-box;
+    margin-right: 850px;
+}
+
+#email {
+    background-color: darkgray;
+    color:white;
+    background-origin: padding-box;
+    margin-right: 850px;
+}
+
+#nachricht {
+    background-color: darkgray;
+    color:white;
+    background-origin: padding-box;
+    margin-right: 850px;
+}
