@@ -5,7 +5,7 @@ body {
 }
 
 button {
-    position: absolute;
+    position: fixed;
     font-family: sans-serif;
     font-size: large;
     top: 0;
