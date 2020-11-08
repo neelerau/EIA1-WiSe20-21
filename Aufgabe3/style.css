@@ -150,8 +150,16 @@ input {
     background-origin: padding-box;
     margin-left: 385px;
     border: none;
-    
-    
+}
 
+::-ms-input-placeholder {
+    color: white;
+
+
+}
+
+
+#nachrichti {
+    border-width: 400px;
 
 }
