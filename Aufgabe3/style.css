@@ -137,11 +137,11 @@ input {
 }
 
 textarea {
-    font-size: smaller;
+    font-size: small;
     background-color: darkgray;
     color:white;
     background-origin: padding-box;
-    margin-left: 200px;
+    margin-left: 385px;
     border: none;
     resize: none;
 
