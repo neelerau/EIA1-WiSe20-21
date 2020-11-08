@@ -137,7 +137,8 @@ input {
 }
 
 textarea {
-    font-size: small;
+    font-size: smaller;
+    font-family: sans-serif;
     background-color: darkgray;
     color:white;
     background-origin: padding-box;
