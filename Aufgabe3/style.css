@@ -136,6 +136,14 @@ input {
     border: none;
 }
 
-#nachricht {
-    padding-right: 30px;
+h6{
+    font-family: sans-serif;
+    font-size: small;
+    color: white;
+    background-color: darkgray;
+    margin-left: 385px;
+    margin-right: 1270px;
+
+   
+
 }
