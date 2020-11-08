@@ -136,13 +136,24 @@ input {
     border: none;
 }
 
+textarea {
+    font-size: smaller;
+    background-color: darkgray;
+    color:white;
+    background-origin: padding-box;
+    margin-left: 200px;
+    border: none;
+    resize: none;
+
+}
+
 h6{
     font-family: sans-serif;
     font-size: small;
     color: white;
     background-color: darkgray;
     margin-left: 385px;
-    margin-right: 1270px;
+    margin-right: 1275px;
 
 }
 ::placeholder{
