@@ -152,14 +152,6 @@ input {
     border: none;
 }
 
-::-ms-input-placeholder {
-    color: white;
-
-
-}
-
-
-#nachrichti {
-    border-width: 400px;
-
+#nachricht {
+    padding-right: 30px;
 }
