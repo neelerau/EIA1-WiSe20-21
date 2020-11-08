@@ -111,21 +111,6 @@ h4 {
     margin-left: 385px;
 }
 
-#kontakt {
-    font-size: small;
-    background-color: darkgray;
-    color:white;
-    background-origin: padding-box;
-    margin-right: 850px;
-}
-
-#nachricht {
-    font-size: smaller;
-    background-color: darkgray;
-    color:white;
-    background-origin: padding-box;
-    margin-right: 850px;
-}
 
 #datenschutz {
     color: darkgray;
@@ -135,14 +120,14 @@ h4 {
 
 }
 
-#absenden {
+h5 {
     font-size: smaller;
     background-color: darkgray;
     color:white;
     background-origin: padding-box;
     margin-right: 1100px;
-}
 
+}
 input {
     font-size: smaller;
     background-color: darkgray;
