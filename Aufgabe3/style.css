@@ -142,3 +142,12 @@ h4 {
     background-origin: padding-box;
     margin-right: 1100px;
 }
+
+#input {
+    font-size: smaller;
+    background-color: darkgray;
+    color:white;
+    background-origin: padding-box;
+    margin-right: 850px;
+
+}
