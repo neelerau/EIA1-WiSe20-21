@@ -68,3 +68,9 @@ h2 {
     position: fixed;
     z-index: 1;
 }
+
+div img:hover {
+    background-image: url(stern_hover.png);
+    transition: 2s;
+
+}
