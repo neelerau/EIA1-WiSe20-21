@@ -21,6 +21,17 @@ body {
 
 }
 
+h1 {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    margin-left: 600px;
+    margin-top: -500px;
+
+}
+
 .pinguin {
     margin-left: 970px;
     margin-top: -330px;
