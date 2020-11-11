@@ -29,15 +29,18 @@ h1 {
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 10px;
     font-family: sans-serif;
     color: white;
     position: fixed;
     line-height: 20px;
     margin-left: 600px;
     margin-right: 600px;
-    margin-top: -400px;
+    margin-top: -430px;
     z-index: 1;
 
 }
 
+:-ms-input-radio {
+    
+}
