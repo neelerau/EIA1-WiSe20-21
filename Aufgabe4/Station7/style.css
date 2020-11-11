@@ -59,6 +59,33 @@ h2 {
     position: fixed;
     z-index: auto;
     
+    .stern1 {
+        margin-left: 970px;
+        margin-top: -330px;
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .stern2 {
+        margin-left: 910px;
+        margin-top: -250px;
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .stern3 {
+        margin-left: 820px;
+        margin-top: -270px;
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .stern4 {
+        margin-left: 730px;
+        margin-top: -240px;
+        position: fixed;
+        z-index: 1;
+    }
 
 
 }
