@@ -47,8 +47,8 @@ h2 {
 }
 
 .gifts {
-    margin-left: 900px;
-    margin-top: -290px;
+    margin-left: 880px;
+    margin-top: -255px;
     position: fixed;
     z-index: 1;
 }
@@ -63,29 +63,29 @@ h2 {
     
     
     .stern1 {
-        margin-left: 970px;
-        margin-top: -330px;
+        margin-left: 990px;
+        margin-top: -460px;
         position: fixed;
         z-index: 1;
     }
     
     .stern2 {
-        margin-left: 910px;
-        margin-top: -250px;
+        margin-left: 865px;
+        margin-top: -380px;
         position: fixed;
         z-index: 1;
     }
     
     .stern3 {
-        margin-left: 820px;
-        margin-top: -270px;
+        margin-left: 785px;
+        margin-top: -320px;
         position: fixed;
         z-index: 1;
     }
     
     .stern4 {
-        margin-left: 730px;
-        margin-top: -240px;
+        margin-left: 570px;
+        margin-top: -330px;
         position: fixed;
         z-index: 1;
     }
