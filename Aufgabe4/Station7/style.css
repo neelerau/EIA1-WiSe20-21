@@ -52,3 +52,12 @@ h2 {
     position: fixed;
     z-index: 1;
 }
+
+.feuer {
+    margin-left: 900px;
+    margin-top: -380px;
+    position: fixed;
+    z-index: 1;
+    background: none;
+
+}
