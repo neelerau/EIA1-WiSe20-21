@@ -28,13 +28,13 @@ h1 {
     color: white;
     position: fixed;
     margin-left: 600px;
-    margin-top: -500px;
+    margin-top: -490px;
     z-index: 1;
 
 }
 
 h2 {
-    font-size: smaller;
+    font-size: 15px;
     font-family: sans-serif;
     color: white;
     position: fixed;
