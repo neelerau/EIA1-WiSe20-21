@@ -20,3 +20,10 @@ body {
     position: relative;
 
 }
+
+.pinguin {
+    margin-left: 970px;
+    margin-top: -330px;
+    position: fixed;
+    z-index: 1;
+}
