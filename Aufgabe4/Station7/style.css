@@ -2,7 +2,7 @@ body {
     background-image: url("bg.png");
 
 }
-plant {
+.plant {
     margin-left: 450px;
     margin-top: -20px;
     position: fixed;
@@ -47,8 +47,8 @@ h2 {
 }
 
 .gifts {
-    margin-left: 970px;
-    margin-top: -330px;
+    margin-left: 900px;
+    margin-top: -290px;
     position: fixed;
     z-index: 1;
 }
