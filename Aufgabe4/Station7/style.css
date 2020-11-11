@@ -2,7 +2,7 @@ body {
     background-image: url("bg.png");
 
 }
-.busch {
+plant {
     margin-left: 450px;
     margin-top: -20px;
     position: fixed;
@@ -46,7 +46,7 @@ h2 {
 
 }
 
-.pinguin {
+.gifts {
     margin-left: 970px;
     margin-top: -330px;
     position: fixed;
