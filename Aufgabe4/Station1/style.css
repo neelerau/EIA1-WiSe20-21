@@ -1,5 +1,15 @@
 body {
     background-image: url("bg.png");
+
+}
+.busch {
+    margin-left: 450px;
+    margin-top: -20px;
+    position: fixed;
+    z-index: 1;
+}
+
+.wrapper {
     text-align: center;
     display: block;
     justify-content: center;
@@ -9,11 +19,4 @@ body {
     margin-bottom: 150px;
     position: relative;
 
-}
-
-.busch {
-    margin-right:-400px;
-    margin-left: 0px;
-    margin-top: -100px;
-    position: absolute;
 }
