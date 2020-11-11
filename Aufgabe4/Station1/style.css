@@ -27,9 +27,21 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     position: fixed;
-    z-index: 1;
     margin-left: 600px;
     margin-top: -500px;
+    z-index: 1;
+
+}
+
+h2 {
+    font-size: smaller;
+    font-family: sans-serif;
+    color: white;
+    position: fixed;
+    line-height: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: -400px;
     z-index: 1;
 
 }
