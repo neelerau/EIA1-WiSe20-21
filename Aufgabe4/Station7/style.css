@@ -1,0 +1,54 @@
+body {
+    background-image: url("bg.png");
+
+}
+.busch {
+    margin-left: 450px;
+    margin-top: -20px;
+    position: fixed;
+    z-index: 1;
+}
+
+.wrapper {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+ 
+
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: fixed;
+    margin-left: 600px;
+    margin-top: -490px;
+    z-index: 1;
+
+}
+
+h2 {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    position: fixed;
+    line-height: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: -400px;
+    z-index: 1;
+
+}
+
+.pinguin {
+    margin-left: 970px;
+    margin-top: -330px;
+    position: fixed;
+    z-index: 1;
+}
