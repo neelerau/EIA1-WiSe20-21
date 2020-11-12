@@ -1,8 +1,16 @@
 body {
     background-image: url("bg.png");
+    padding: 0%;
+
+}
+
+.container {
+   position: 100%;
+
 
 }
 .busch {
+    margin: auto;
     margin-left: 450px;
     margin-top: -20px;
     position: fixed;
@@ -26,7 +34,7 @@ h1 {
     font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    position: fixed;
+    position: absolute;
     margin-left: 600px;
     margin-top: -490px;
     z-index: 1;
