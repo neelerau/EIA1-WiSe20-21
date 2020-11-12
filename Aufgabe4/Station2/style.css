@@ -18,12 +18,11 @@ body {
 }
 
 
-
 h1 {
     font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    position: fixed;
+    position: absolute;
     margin-left: 600px;
     margin-top: -490px;
     z-index: 1;
@@ -34,7 +33,7 @@ h2 {
     font-size: 15px;
     font-family: sans-serif;
     color: white;
-    position: fixed;
+    position: absolute;
     line-height: 20px;
     margin-left: 600px;
     margin-right: 600px;
