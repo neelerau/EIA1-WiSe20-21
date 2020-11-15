@@ -1,32 +1,32 @@
 body {
     background-image: url("bg.png");
-    padding: 0%;
-
-}
-
-
-.busch {
-    margin: auto;
-    margin-left: 450px;
-    margin-top: -20px;
-    position: fixed;
-    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
 }
 
 .wrapper {
-    text-align: center;
-    display: block;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
     position: relative;
- 
-
+    top: 0%;
+    left: 0%;
 }
 
-h1 {
+.elements {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.busch {
+    position: absolute;
+}
+
+ .pinguin {
+     position: absolute;
+ }
+
+ {
     font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -48,11 +48,4 @@ h2 {
     margin-top: -400px;
     z-index: 1;
 
-}
-
-.pinguin {
-    margin-left: 970px;
-    margin-top: -330px;
-    position: fixed;
-    z-index: 1;
 }
