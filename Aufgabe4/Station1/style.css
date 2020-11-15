@@ -20,10 +20,14 @@ body {
 
 .busch {
     position: absolute;
+    top: -65px;
+    left: -65px;
 }
 
  .pinguin {
      position: absolute;
+     top: 215px;
+     left: 465px;
  }
 
  .text {
