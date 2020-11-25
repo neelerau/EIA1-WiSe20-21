@@ -75,4 +75,32 @@ console.log('Die Emission von Australien ist: ' + australia2018 + 'kg CO2');
 console.log('Relativ zur Gesamtenemission der Welt verursacht Australien damit ' + ausraliaProzentGesamt + '%');
 console.log('Für Australien hat sich 2018 die Emission im Vergleich zu 2008 um ' + australiaProzentVergleich + '% verändert');
 console.log('2018 im Vergleich zu 2008 sind das ' + australiaVergleich + 'kg CO2');
+// Funktion für Kontinente
+function emissionen(continent, continet2018, Prozentgesamt, Prozentvergleich, Vergleich) {
+    document.querySelector("h1").innerHTML;
+    "Carbon Dioxid Emissions in" + "continent";
+    document.querySelector("#h2a").innerHTML;
+    "continent2018";
+    document.querySelector("p").innerHTML;
+    "Emission absolut of" + "continent" + "2018";
+    document.querySelector("#h2b").innerHTML;
+    "ProzentGesamt" + "%";
+    document.querySelector("#h2c").innerHTML;
+    "ProzentVergleich" + "%";
+    document.querySelector("#h2d").innerHTML;
+    "Vergleich" + "kg CO2";
+    document.querySelector(".chart").setAttribute('style', 'height:' + ((africa2018 / emissionenGesamt) * 100) + '%');
+}
+// Funktionen für Afrika
+document.querySelector(".africa").addEventListener("click", emissionen.bind(null, "Africa", africa2018, africaProzentGesamt, africaProzentVergleich, africaVergleich));
+// Funktionen für South America
+document.querySelector(".southamerica").addEventListener("click", emissionen.bind(null, "South America", southamerica2018, southamericaProzentGesamt, southamericaProzentVergleich, southamericaVergleich));
+// Funktionen für North America
+document.querySelector(".northamerica").addEventListener("click", emissionen.bind(null, "North America", northamerica2018, northamericaProzentGesamt, northamericaProzentVergleich, northamericaVergleich));
+// Funktionen für Europe
+document.querySelector(".europe").addEventListener("click", emissionen.bind(null, "Europe", europe2018, europeProzentGesamt, europeProzentVergleich, europeVergleich));
+// Funktionen für Asia
+document.querySelector(".asia").addEventListener("click", emissionen.bind(null, "Asia", asia2018, asiaProzentGesamt, asiaProzentVergleich, asiaVergleich));
+// Funktionen für Australia
+document.querySelector(".australia").addEventListener("click", emissionen.bind(null, "Australia", australia2018, ausraliaProzentGesamt, australiaProzentVergleich, australiaVergleich));
 //# sourceMappingURL=script.js.map
