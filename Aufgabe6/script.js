@@ -20,29 +20,29 @@ var australia2018 = 2100.5;
 // Berechnungen 
 var emissionenGesamt = africa2018 + southamerica2018 + northamerica2018 + europe2018 + asia2018 + australia2018;
 //Africa
-var africaProzentGesamt = ((africa2018 / emissionenGesamt) * 100).toFixed(1);
-var africaProzentVergleich = (((africa2018 / africa2008) - 1) * 100).toFixed(1);
-var africaVergleich = (africa2018 - africa2008).toFixed(1);
+var africaProzentGesamt = ((Math.round)(africa2018 / emissionenGesamt) * 100);
+var africaProzentVergleich = ((Math.round)((africa2018 / africa2008) - 1) * 100);
+var africaVergleich = ((Math.round)(africa2018 - africa2008));
 //South America
-var southamericaProzentGesamt = ((southamerica2018 / emissionenGesamt) * 100).toFixed(1);
-var southamericaProzentVergleich = (((southamerica2018 / southamerica2008) - 1) * 100).toFixed(1);
-var southamericaVergleich = (southamerica2018 - southamerica2008).toFixed(1);
+var southamericaProzentGesamt = ((Math.round)(southamerica2018 / emissionenGesamt) * 100);
+var southamericaProzentVergleich = ((Math.round)((southamerica2018 / southamerica2008) - 1) * 100);
+var southamericaVergleich = ((Math.round)(southamerica2018 - southamerica2008));
 //North America
-var northamericaProzentGesamt = ((northamerica2018 / emissionenGesamt) * 100).toFixed(1);
-var northamericaProzentVergleich = (((northamerica2018 / northamerica2008) - 1) * 100).toFixed(1);
-var northamericaVergleich = (northamerica2018 - northamerica2008).toFixed(1);
+var northamericaProzentGesamt = ((Math.round)(northamerica2018 / emissionenGesamt) * 100);
+var northamericaProzentVergleich = ((Math.round)((northamerica2018 / northamerica2008) - 1) * 100);
+var northamericaVergleich = ((Math.round)(northamerica2018 - northamerica2008));
 //Europe
-var europeProzentGesamt = ((europe2018 / emissionenGesamt) * 100).toFixed(1);
-var europeProzentVergleich = (((europe2018 / europe2008) - 1) * 100).toFixed(1);
-var europeVergleich = (europe2018 - europe2008).toFixed(1);
+var europeProzentGesamt = ((Math.round)(europe2018 / emissionenGesamt) * 100);
+var europeProzentVergleich = ((Math.round)((europe2018 / europe2008) - 1) * 100);
+var europeVergleich = ((Math.round)(europe2018 - europe2008));
 //Asia
-var asiaProzentGesamt = ((asia2018 / emissionenGesamt) * 100).toFixed(1);
-var asiaProzentVergleich = (((africa2018 / asia2008) - 1) * 100).toFixed(1);
-var asiaVergleich = (asia2018 - asia2008).toFixed(1);
+var asiaProzentGesamt = ((Math.round)(asia2018 / emissionenGesamt) * 100);
+var asiaProzentVergleich = ((Math.round)((africa2018 / asia2008) - 1) * 100);
+var asiaVergleich = ((Math.round)(asia2018 - asia2008));
 //Australia
-var ausraliaProzentGesamt = ((australia2018 / emissionenGesamt) * 100).toFixed(1);
-var australiaProzentVergleich = (((australia2018 / australia2008) - 1) * 100).toFixed(1);
-var australiaVergleich = (australia2018 - australia2008).toFixed(1);
+var ausraliaProzentGesamt = ((Math.round)(australia2018 / emissionenGesamt) * 100);
+var australiaProzentVergleich = ((Math.round)((australia2018 / australia2008) - 1) * 100);
+var australiaVergleich = ((Math.round)(australia2018 - australia2008));
 // Konsolenausgaben
 console.log('-Die Emissionswerte der verschiedenen Regionen unserer Welt-');
 //Konsolenausgabe für Afrika:
