@@ -48,7 +48,7 @@ const europeProzentGesamt = ((europe2018 / emissionenGesamt) * 100);
 const europeProzentVergleich = (((europe2018 / europe2008) - 1) * 100);
 const europeVergleich = (europe2018 - europe2008);
 //Asia
-const asiaProzentGesamt = ((Math.round)(asia2018 / emissionenGesamt) * 100);
+const asiaProzentGesamt = ((asia2018 / emissionenGesamt) * 100);
 const asiaProzentVergleich = (((africa2018 / asia2008) - 1) * 100);
 const asiaVergleich = ((asia2018 - asia2008));
 //Australia
@@ -57,40 +57,39 @@ const australiaProzentVergleich = (((australia2018 / australia2008) - 1) * 100);
 const australiaVergleich = (australia2018 - australia2008);
 
 // Funktion für Kontinente
-function emissionen( continent: string, continent2018: number, prozentGesamt: number, ProzentVergleich: number, Vergleich: number)
-{
-    document.querySelector("#h2.1").innerHTML = continent2018 + "kg CO2";
-    document.querySelector("#h2.2").innerHTML = prozentGesamt + "%";
-    document.querySelector("#h2.3").innerHTML = ProzentVergleich + "%";
-    document.querySelector("#h2.4").innerHTML = Vergleich + "kg CO2";
-    document.querySelector(".chart").setAttribute('style', 'height:' + ((africa2018 / emissionenGesamt) * 100) + '%');
-    document.getElementById("#titleRegion").innerHTML = continent;
-    document.getElementById("#titleRegion2").innerHTML = continent;
+function emissionen( continent: string, continent2018: number, prozentGesamt: number, ProzentVergleich: number, Vergleich: number) {
+    document.querySelector("h2.1").innerHTML = continent2018 + "kg CO2";
+    document.querySelector("h2.2").innerHTML = prozentGesamt + "%";
+    document.querySelector("h2.3").innerHTML = ProzentVergleich + "%";
+    document.querySelector("h2.4").innerHTML = Vergleich + "kg CO2";
+    document.querySelector("chart").setAttribute('style', 'height:' + ((africa2018 / emissionenGesamt) * 100) + '%');
+    document.getElementById("titleRegion").innerHTML = continent;
+    document.getElementById("titleRegion2").innerHTML = continent;
 };
 
 // Funktionen für Afrika
    document.getElementById("#africa").addEventListener("click", function () {
-      emissionen("Africa",africa2018, africaProzentGesamt, africaProzentVergleich, africaVergleich );
+      emissionen("Africa",africa2018, africaProzentGesamt, africaProzentVergleich, africaVergleich)
       });
 // Funktionen für South America
-   document.getElementById("#southamerica").addEventListener("click", function () {
-      emissionen("South America",southamerica2018, southamericaProzentGesamt, southamericaProzentVergleich, southamericaVergleich );
+   document.getElementById("southamerica").addEventListener("click", function () {
+      emissionen("South America",southamerica2018, southamericaProzentGesamt, southamericaProzentVergleich, southamericaVergleich)
       });
 // Funktionen für North America
-   document.getElementById("#northamerica").addEventListener("click", function () {
-      emissionen("North America",northamerica2018, northamericaProzentGesamt, northamericaProzentVergleich, northamericaVergleich);
+   document.getElementById("northamerica").addEventListener("click", function () {
+      emissionen("North America",northamerica2018, northamericaProzentGesamt, northamericaProzentVergleich, northamericaVergleich)
       });
 // Funktionen für Europe
-   document.getElementById("#europe").addEventListener("click", function () {
-      emissionen( "Europe",europe2018, europeProzentGesamt, europeProzentVergleich, europeVergleich);
+   document.getElementById("europe").addEventListener("click", function () {
+      emissionen( "Europe",europe2018, europeProzentGesamt, europeProzentVergleich, europeVergleich)
       });
 // Funktionen für Asia
-   document.getElementById("#asia").addEventListener("click", function (){
-      emissionen("Asia",asia2018, asiaProzentGesamt, asiaProzentVergleich, asiaVergleich );
+   document.getElementById("asia").addEventListener("click", function (){
+      emissionen("Asia",asia2018, asiaProzentGesamt, asiaProzentVergleich, asiaVergleich)
       });
 // Funktionen für Australia
-   document.getElementById("#australia").addEventListener("click", function () {
-      emissionen("Australia",australia2018, ausraliaProzentGesamt, australiaProzentVergleich, australiaVergleich);
+   document.getElementById("australia").addEventListener("click", function () {
+      emissionen("Australia",australia2018, ausraliaProzentGesamt, australiaProzentVergleich, australiaVergleich)
       });
    
 }
