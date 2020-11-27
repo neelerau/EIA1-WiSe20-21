@@ -58,7 +58,7 @@ var australiaVergleich = (australia2018 - australia2008);
 console.log ('-Die Emissionswerte der verschiedenen Regionen unserer Welt-');
 //Konsolenausgabe für Afrika:
 console.log ('Die Emission von Afrika ist: ' + africa2018 + 'kg CO2');
-console.log ('Relativ zur Gesamtenemission der Welt verursacht Afrika damit ' + africaProzentGesamt + '%');
+console.log ('Relativ zur Gesamtenemission der Welt verursacht Afrika damit ' + africaProzentGesamt +  '%');
 console.log ('Für Afrika hat sich 2018 die Emission im Vergleich zu 2008 um ' + africaProzentVergleich + '% verändert');
 console.log ('2018 im Vergleich zu 2008 sind das ' + africaVergleich + 'kg CO2');
 

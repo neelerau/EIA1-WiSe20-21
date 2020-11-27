@@ -12,7 +12,7 @@ nav {
     margin-bottom: 60px;
 }
 
-img :hover{
+img nav:hover{
    opacity: 50%;
 
 }

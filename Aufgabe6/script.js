@@ -43,44 +43,12 @@ var asiaVergleich = ((Math.round)(asia2018 - asia2008));
 var ausraliaProzentGesamt = ((Math.round)(australia2018 / emissionenGesamt) * 100);
 var australiaProzentVergleich = ((Math.round)((australia2018 / australia2008) - 1) * 100);
 var australiaVergleich = ((Math.round)(australia2018 - australia2008));
-// Konsolenausgaben
-console.log('-Die Emissionswerte der verschiedenen Regionen unserer Welt-');
-//Konsolenausgabe für Afrika:
-console.log('Die Emission von Afrika ist: ' + africa2018 + 'kg CO2');
-console.log('Relativ zur Gesamtenemission der Welt verursacht Afrika damit ' + africaProzentGesamt + '%');
-console.log('Für Afrika hat sich 2018 die Emission im Vergleich zu 2008 um ' + africaProzentVergleich + '% verändert');
-console.log('2018 im Vergleich zu 2008 sind das ' + africaVergleich + 'kg CO2');
-//Konsolenausgabe für Southamerica
-console.log('Die Emission von Südamerika ist: ' + southamerica2018 + 'kg CO2');
-console.log('Relativ zur Gesamtenemission der Welt verursacht Südamerika damit ' + southamericaProzentGesamt + '%');
-console.log('Für Südamerika hat sich 2018 die Emission im Vergleich zu 2008 um ' + southamericaProzentVergleich + '% verändert');
-console.log('2018 im Vergleich zu 2008 sind das ' + southamericaVergleich + 'kg CO2');
-//Konsolenausgabe für Europe
-console.log('Die Emission von Europa ist: ' + europe2018 + 'kg CO2');
-console.log('Relativ zur Gesamtenemission der Welt verursacht Europa damit ' + europeProzentGesamt + '%');
-console.log('Für Europa hat sich 2018 die Emission im Vergleich zu 2008 um ' + europeProzentVergleich + '% verändert');
-console.log('2018 im Vergleich zu 2008 sind das ' + europeVergleich + 'kg CO2');
-//Konsolenausgabe für North America
-console.log('Die Emission von Nordamerika ist: ' + northamerica2018 + 'kg CO2');
-console.log('Relativ zur Gesamtenemission der Welt verursacht Nordamerika damit ' + northamericaProzentGesamt + '%');
-console.log('Für Nordamerika hat sich 2018 die Emission im Vergleich zu 2008 um ' + northamericaProzentVergleich + '% verändert');
-console.log('2018 im Vergleich zu 2008 sind das ' + northamericaVergleich + 'kg CO2');
-//Konsolenausgabe für Asia
-console.log('Die Emission von Asien ist: ' + asia2018 + 'kg CO2');
-console.log('Relativ zur Gesamtenemission der Welt verursacht Asien damit ' + asiaProzentGesamt + '%');
-console.log('Für Asien hat sich 2018 die Emission im Vergleich zu 2008 um ' + asiaProzentVergleich + '% verändert');
-console.log('2018 im Vergleich zu 2008 sind das ' + asiaVergleich + 'kg CO2');
-// Konsolenausgabe für Australia
-console.log('Die Emission von Australien ist: ' + australia2018 + 'kg CO2');
-console.log('Relativ zur Gesamtenemission der Welt verursacht Australien damit ' + ausraliaProzentGesamt + '%');
-console.log('Für Australien hat sich 2018 die Emission im Vergleich zu 2008 um ' + australiaProzentVergleich + '% verändert');
-console.log('2018 im Vergleich zu 2008 sind das ' + australiaVergleich + 'kg CO2');
 // Funktion für Kontinente
-function emissionen(continent, continet2018, Prozentgesamt, Prozentvergleich, Vergleich) {
+function emissionen(continent, continet2018, ProzentGesamt, ProzentVergleich, Vergleich) {
     document.querySelector("h1").innerHTML;
-    "Carbon Dioxid Emissions in" + "continent";
+    'Carbon Dioxid Emissions in' + "continent";
     document.querySelector("#h2a").innerHTML;
-    "continent2018";
+    'continent2018';
     document.querySelector("p").innerHTML;
     "Emission absolut of" + "continent" + "2018";
     document.querySelector("#h2b").innerHTML;
