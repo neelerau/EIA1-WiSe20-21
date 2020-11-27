@@ -35,6 +35,7 @@ section {
     width: 100%;
     height: 20%;
     background: white;
+    transition: 3s;
 }
 
 footer p {

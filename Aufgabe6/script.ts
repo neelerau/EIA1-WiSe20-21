@@ -58,17 +58,17 @@ const australiaVergleich = (australia2018 - australia2008);
 
 // Funktion für Kontinente
 function emissionen( continent: string, continent2018: number, prozentGesamt: number, ProzentVergleich: number, Vergleich: number) {
-    document.querySelector("h2.1").innerHTML = continent2018 + "kg CO2";
-    document.querySelector("h2.2").innerHTML = prozentGesamt + "%";
-    document.querySelector("h2.3").innerHTML = ProzentVergleich + "%";
-    document.querySelector("h2.4").innerHTML = Vergleich + "kg CO2";
-    document.querySelector("chart").setAttribute('style', 'height:' + ((africa2018 / emissionenGesamt) * 100) + '%');
+    document.getElementById("überschrift1").innerHTML = continent2018 + "kg CO2";
+    document.getElementById("überschrift2").innerHTML = prozentGesamt.toFixed(1) + "%";
+    document.getElementById("überschrift3").innerHTML = ProzentVergleich.toFixed(1) + "%";
+    document.getElementById("überschrift4").innerHTML = Vergleich.toFixed(1) + "kg CO2";
+    document.querySelector(".chart").setAttribute('style', 'height:' + ((continent2018 / emissionenGesamt) * 100) + '%');
     document.getElementById("titleRegion").innerHTML = continent;
     document.getElementById("titleRegion2").innerHTML = continent;
 };
 
 // Funktionen für Afrika
-   document.getElementById("#africa").addEventListener("click", function () {
+   document.getElementById("africa").addEventListener("click", function () {
       emissionen("Africa",africa2018, africaProzentGesamt, africaProzentVergleich, africaVergleich)
       });
 // Funktionen für South America
