@@ -27,18 +27,26 @@ body{
     z-index: 1;
     display: inline-block;
     box-shadow: 10px 10px 10px 0px #ffffff60 inset;
+    
+}
+#wrapper :hover{
+    opacity: 80%;
 }
 
 #pad1, #pad2, #pad3 {
     background-color: #4075ba;
+    background-image: linear-gradient(#ffffff80,#4075ba);
 }
 
 #pad4, #pad5, #pad6 {
-    background-color:#f73298
+    background-image: linear-gradient(#ffffff80,#f73298);
+    background-color:#f73298;
+
 }
 
 #pad7, #pad8, #pad9{
     background-color: #dd831d;
+    background-image: linear-gradient(#ffffff80,#dd831d);
 }
 #wrapper img {
     position: relative;

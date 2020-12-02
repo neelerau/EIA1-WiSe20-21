@@ -1,6 +1,6 @@
 var DrumPad;
 (function (DrumPad) {
-    // Soundelemente
+    // Arrays der Soundelemente
     var sound = [];
     sound[0] = new Audio("assets/A.mp3");
     sound[1] = new Audio("assets/C.mp3");
@@ -52,5 +52,17 @@ var DrumPad;
     document.getElementById("pad9").addEventListener("click", function () {
         playSample(8);
     });
+    // Funktion für Hintergrundsound
+    document.getElementById("Button").addEventListener("click", function () {
+        mainSound();
+    });
+    function mainSound() {
+        setInterval(function () {
+            sound[4].play();
+            sound[5].play();
+            sound[8].play();
+        }, 500);
+    }
+    ;
 })(DrumPad || (DrumPad = {}));
 //# sourceMappingURL=Aufgabe7.js.map
