@@ -19,38 +19,38 @@ function playSample(thesound: number) {
 
 //Funktion für sound1
 document.getElementById("pad1").addEventListener("click", function(){
-    playSample(0)
+    playSample(0);
 });
 //Funktion für sound2
 document.getElementById("pad2").addEventListener("click", function(){
-    playSample(1)
+    playSample(1);
 });
 //Funktion für sound3
 document.getElementById("pad3").addEventListener("click", function(){
-    playSample(2)
+    playSample(2);
 });
 //Funktion für sound4
 document.getElementById("pad4").addEventListener("click", function(){
-    playSample(3)
+    playSample(3);
 });
 //Funktion für sound5
 document.getElementById("pad5").addEventListener("click", function(){
-    playSample(4)
+    playSample(4);
 });
 //Funktion für sound6
 document.getElementById("pad6").addEventListener("click", function(){
-    playSample(5)
+    playSample(5);
 });
 //Funktion für sound7
 document.getElementById("pad7").addEventListener("click", function(){
-    playSample(6)
+    playSample(6);
 });
 //Funktion für sound8
 document.getElementById("pad8").addEventListener("click", function(){
-    playSample(7)
+    playSample(7);
 });
 //Funktion für sound9
 document.getElementById("pad9").addEventListener("click", function(){
-    playSample(8)
+    playSample(8);
 });
 }
