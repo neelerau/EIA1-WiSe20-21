@@ -1,0 +1,68 @@
+var DrumPad;
+(function (DrumPad) {
+    // Arrays der Soundelemente
+    var sound = [];
+    sound[0] = new Audio("assets/A.mp3");
+    sound[1] = new Audio("assets/C.mp3");
+    sound[2] = new Audio("assets/F.mp3");
+    sound[3] = new Audio("assets/G.mp3");
+    sound[4] = new Audio("assets/hihat.mp3");
+    sound[5] = new Audio("assets/kick.mp3");
+    sound[6] = new Audio("assets/laugh-1.mp3");
+    sound[7] = new Audio("assets/laugh-2.mp3");
+    sound[8] = new Audio("assets/snare.mp3");
+    // Funktion für die Soundelemente
+    function playSample(thesound) {
+        sound[thesound].play();
+    }
+    ;
+    //Funktion für sound1
+    document.getElementById("pad1").addEventListener("click", function () {
+        playSample(0);
+    });
+    //Funktion für sound2
+    document.getElementById("pad2").addEventListener("click", function () {
+        playSample(1);
+    });
+    //Funktion für sound3
+    document.getElementById("pad3").addEventListener("click", function () {
+        playSample(2);
+    });
+    //Funktion für sound4
+    document.getElementById("pad4").addEventListener("click", function () {
+        playSample(3);
+    });
+    //Funktion für sound5
+    document.getElementById("pad5").addEventListener("click", function () {
+        playSample(4);
+    });
+    //Funktion für sound6
+    document.getElementById("pad6").addEventListener("click", function () {
+        playSample(5);
+    });
+    //Funktion für sound7
+    document.getElementById("pad7").addEventListener("click", function () {
+        playSample(6);
+    });
+    //Funktion für sound8
+    document.getElementById("pad8").addEventListener("click", function () {
+        playSample(7);
+    });
+    //Funktion für sound9
+    document.getElementById("pad9").addEventListener("click", function () {
+        playSample(8);
+    });
+    // Funktion für Hintergrundsound
+    document.getElementById("Button").addEventListener("click", function () {
+        mainSound();
+    });
+    function mainSound() {
+        setInterval(function () {
+            sound[4].play();
+            sound[5].play();
+            sound[8].play();
+        }, 500);
+    }
+    ;
+})(DrumPad || (DrumPad = {}));
+//# sourceMappingURL=Aufgabe8.js.map
