@@ -13,7 +13,7 @@ var DrumPad;
     sound[8] = new Audio("assets/snare.mp3");
     //Boolean
     var record;
-    //Array für Nutzereingabe
+    //Array für Nutzereingabe und MainSound
     var leeresArray = [4, 5, 8];
     // Funktion für Recordbutton
     var i;
@@ -110,7 +110,7 @@ var DrumPad;
     });
     //löschbutton
     button[3].addEventListener("click", function () {
-        leeresArray = [];
+        leeresArray = [0];
     });
     //recordbutton red/white
     button[2].addEventListener("click", function () {

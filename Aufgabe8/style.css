@@ -6,14 +6,14 @@ body{
     justify-content: center;
     align-items: center;
     background:url("images/background.jpg") no-repeat center;
-    background-size: cover;
+    background-size: 150%;
 }
 
 #wrapper {
     position: relative;
     width: 500px;
     height: 500px;
-    margin-top: 70px;
+    margin-top: 50px;
     
 }
 
@@ -35,18 +35,18 @@ body{
 }
 
 #pad1, #pad2, #pad3 {
-    background-color: #4075ba;
-    background-image: linear-gradient(#ffffff80,#4075ba);
+    background-color: #255a49;
+    background-image: linear-gradient(#ffffff80,#255a49);
 }
 #pad4, #pad5, #pad6 {
-    background-image: linear-gradient(#ffffff80,#f73298);
-    background-color:#f73298;
 
+    background-color: #538550;
+    background-image: linear-gradient(#ffffff80,#538550);
 }
 
 #pad7, #pad8, #pad9{
-    background-color: #dd831d;
-    background-image: linear-gradient(#ffffff80,#dd831d);
+    background-image: linear-gradient(#ffffff80,#525b4a);
+    background-color:#525b4a;
 }
 #playbutton {
     font-size: 100px;

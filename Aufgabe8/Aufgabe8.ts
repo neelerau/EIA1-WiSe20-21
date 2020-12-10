@@ -15,13 +15,9 @@ namespace DrumPad {
     //Boolean
     let record: boolean;
 
-
-    //Array für Nutzereingabe
+    //Array für Nutzereingabe und MainSound
     let leeresArray: number [] = [4, 5, 8];
-
-
-
- 
+    
     // Funktion für Recordbutton
     let i: number;
 
@@ -38,7 +34,6 @@ namespace DrumPad {
         sound[thesound].play();
     }
     
-    
     //Funktion für sound1
     document.getElementById("pad1").addEventListener("click", function(): void {
         playSample(0);
@@ -52,7 +47,7 @@ namespace DrumPad {
     //Funktion für sound3
     document.getElementById("pad3").addEventListener("click", function(): void {
         playSample(2);
-        recordPlay(2)
+        recordPlay(2);
     });
     //Funktion für sound4
     document.getElementById("pad4").addEventListener("click", function(): void {
@@ -106,8 +101,6 @@ namespace DrumPad {
         }
     }
 
-
-
     // Arrays/Funktion play-/stopbutton aufnehm-/löschbutton
     const button: HTMLElement [] = [];
     button[0] = document.getElementById("playbutton");
@@ -131,7 +124,7 @@ namespace DrumPad {
     
     //löschbutton
     button[3].addEventListener("click", function(): void {
-        leeresArray = [];
+        leeresArray = [0];
     
     });    
 
