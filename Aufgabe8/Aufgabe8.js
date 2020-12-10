@@ -112,7 +112,7 @@ var DrumPad;
     button[3].addEventListener("click", function () {
         leeresArray = [0];
     });
-    //recordbutton red/white
+    //recordbutton grey/white
     button[2].addEventListener("click", function () {
         if (button[2].classList.contains("inactive")) {
             button[2].classList.remove("inactive");

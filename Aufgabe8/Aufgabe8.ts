@@ -128,7 +128,7 @@ namespace DrumPad {
     
     });    
 
-    //recordbutton red/white
+    //recordbutton grey/white
     button[2].addEventListener("click", function(): void {
         if (button[2].classList.contains("inactive")) {
            button[2].classList.remove("inactive");

@@ -76,7 +76,7 @@ body{
 }
 
 #löschbutton {
-    font-size: 80px;
+    font-size: 90px;
     position: absolute;
     margin-left: 100px;
     margin-top: 60px;
@@ -84,7 +84,7 @@ body{
 }
 
 .active {
-    color: red;
+    color: rgb(49, 48, 48);
 }
 
 .inactive {
