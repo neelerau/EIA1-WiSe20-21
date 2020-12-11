@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     background:url("images/background.jpg") no-repeat center;
-    background-size: 150%;
+    background-size: 200%;
 }
 
 #wrapper {
