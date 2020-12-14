@@ -124,7 +124,7 @@ namespace DrumPad {
 
     //löschbutton
     button[3].addEventListener("click", function (): void {
-        leeresArray = [0];
+        leeresArray = [];
 
     });
 
