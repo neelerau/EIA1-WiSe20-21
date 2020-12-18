@@ -110,7 +110,7 @@ var DrumPad;
     });
     //löschbutton
     button[3].addEventListener("click", function () {
-        leeresArray = [0];
+        leeresArray = [];
     });
     //recordbutton grey/white
     button[2].addEventListener("click", function () {
