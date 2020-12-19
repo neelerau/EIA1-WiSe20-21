@@ -2,7 +2,7 @@
 
     // konstante für Inputfeld
     const inputField: HTMLInputElement = (document.getElementById("text") as HTMLInputElement);
-
+    const removeAll: HTMLElement = (document.querySelector(".fas fa-redo"));
 
     // wann ein neues Inputfeld erzeugt wird
     inputField.addEventListener("keypress", function (e: KeyboardEvent): void {
@@ -35,7 +35,6 @@
 
         let deleteBtn: HTMLElement = document.createElement ("i");
         deleteBtn.className = "fas fa-trash-alt";
-        
 
         let wrapper: HTMLDivElement = document.createElement ("div");
 
@@ -43,13 +42,13 @@
         wrapper.appendChild(myCheckbox);
         wrapper.appendChild(myLabel);
         wrapper.appendChild(deleteBtn);
-        
+    
 
     // Bei "click" wird wrapper durch Deletebtn gelöscht
         deleteBtn.addEventListener("click", function(): void {
             deleteText(deleteBtn, wrapper);
         });     
-        
+
         total++;
         TotalToDos();
         
