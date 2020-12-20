@@ -2,7 +2,6 @@
 
     // konstante für Inputfeld
     const inputField: HTMLInputElement = (document.getElementById("text") as HTMLInputElement);
-    const removeAll: HTMLElement = (document.querySelector(".fas fa-redo"));
 
     // wann ein neues Inputfeld erzeugt wird
     inputField.addEventListener("keypress", function (e: KeyboardEvent): void {

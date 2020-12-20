@@ -25,16 +25,19 @@ body {
     color: grey;
     text-align: left;
     background-color: rgb(231, 231, 231);
-
 }
 
 form :nth-child(odd) {
     background-color: honeydew;
-    
 }
 .checkbox {
     margin-left: -230px;
     color: honeydew;
+    
+}
+
+form .text{
+    line-height: 40px;
     
 }
 
@@ -51,6 +54,7 @@ form :nth-child(odd) {
     margin-right: 25px;
     margin-top:9px;
     font-size: 23px;
+    position:sticky;
 }
  .fas:hover{
      opacity: 70%;
@@ -70,7 +74,10 @@ form :nth-child(odd) {
 #löschbutton {
     display: none;
 }
-
+ #text{
+     font-size: 20px;
+     
+ }
 input {
     margin-left: -30px;
     border: none;

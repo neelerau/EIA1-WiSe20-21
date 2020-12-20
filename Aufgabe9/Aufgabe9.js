@@ -2,7 +2,6 @@ var ToDoList;
 (function (ToDoList) {
     // konstante für Inputfeld
     var inputField = document.getElementById("text");
-    var removeAll = (document.querySelector(".fas fa-redo"));
     // wann ein neues Inputfeld erzeugt wird
     inputField.addEventListener("keypress", function (e) {
         if (e.key == "Enter") {
@@ -43,13 +42,5 @@ var ToDoList;
         total--;
         TotalToDos();
     }
-    // //Alle ToDos löschen
-    function deleteAll(input) {
-        inputField.remove();
-        total = 0;
-    }
-    removeAll.addEventListener("click", function () {
-        deleteAll(inputField);
-    });
 })(ToDoList || (ToDoList = {}));
 //# sourceMappingURL=Aufgabe9.js.map
