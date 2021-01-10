@@ -97,8 +97,8 @@ function drawListToDOM(): void {
          * ein Wert einer Variablen benötigt (bspw. für die CSS Klasse oder für den ToDo-Text),
          * hier muss die Zeichenkette unterbrochen werden.
          */
-        todo.innerHTML =  "<span class='check " + toDos[index].checked + "'><i class='fas fa-check'></i></span>"
-                            + toDos[index].inhalt +
+        todo.innerHTML =  "<span class='check " + toDos[index].checked + "'><i class='fas fa-check'></i></span>" //.checked um boolean einzubringen
+                            + toDos[index].inhalt + //.inhalt um boolean einzubringen
                             "<span class='trash fas fa-trash-alt'></span>";
 
         // Zuweisen der Event-Listener für den Check- und den Trash-Button
@@ -141,7 +141,7 @@ function addTodo(): void {
          * Status der ToDos abbildet, für dieses ToDo (weil selbe Stelle im Array)
          * der Status "unchecked", hier false, gepusht.
          */
-        toDos.unshift({
+        toDos.unshift({ //.unshift um ToDo oben anzuhängen
             inhalt: inputDOMElement.value,
             checked: false
         });
