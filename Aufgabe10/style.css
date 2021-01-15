@@ -13,6 +13,13 @@ main {
     color: grey;
 }
 
+#checkedCounter {
+    color: grey;
+}
+
+#notCheckedCounter {
+    color: grey;
+}
 .inputGroup {
     position: relative;
 }
